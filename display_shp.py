@@ -39,7 +39,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 # 读取shp文件
-gdf = gpd.read_file(r"buffered.shp")
+gdf = gpd.read_file(r"E:\Geo_Data\book_python_gis\part010\ch01_introduction\sec1_gis\xx_demo_point.shp")
 
 # 绘制图层
 gdf.plot()
